@@ -1,0 +1,13 @@
+C:\GITHUB\Becoming.NET-Developer\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
+C:\GITHUB\Becoming.NET-Developer\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
+C:\GITHUB\Becoming.NET-Developer\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
+C:\GITHUB\Becoming.NET-Developer\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
+C:\GITHUB\Becoming.NET-Developer\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
+C:\GITHUB\Becoming.NET-Developer\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
+C:\GITHUB\Becoming.NET-Developer\Calculator\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache
+C:\GITHUB\Becoming.NET-Developer\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+C:\GITHUB\Becoming.NET-Developer\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+C:\GITHUB\Becoming.NET-Developer\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CoreCompileInputs.cache
+C:\GITHUB\Becoming.NET-Developer\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
+C:\GITHUB\Becoming.NET-Developer\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
+C:\GITHUB\Becoming.NET-Developer\Calculator\obj\Debug\netcoreapp3.1\Calculator.genruntimeconfig.cache
