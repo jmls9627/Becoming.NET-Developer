@@ -11,13 +11,11 @@ namespace DinerMax3000_Menus
         static void Main(string[] args)
         {
             Menu summerMenu = new Menu();
-            summerMenu.Name = "Summer Menu";
-            MenuItem salmon = new MenuItem();
-            salmon.Title = "Salmon";
-            salmon.Description = "Salmon from the Alpes";
-            salmon.Price = 25.50;
-            summerMenu.items.Add(salmon);
+            summerMenu.Name = "SummerMenu";
+            summerMenu.AddMenuItems("Salmon", "Fresh from Alpes", 25.50);
+            summerMenu.AddMenuItems("Tacos", "Mexican Tacos", 15.99);
 
         }
+
     }
 }
