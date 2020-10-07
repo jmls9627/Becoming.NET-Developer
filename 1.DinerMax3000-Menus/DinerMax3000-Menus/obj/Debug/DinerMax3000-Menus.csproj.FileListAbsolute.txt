@@ -1,0 +1,7 @@
+C:\DinerMax3000-Menus\DinerMax3000-Menus\bin\Debug\DinerMax3000-Menus.exe.config
+C:\DinerMax3000-Menus\DinerMax3000-Menus\bin\Debug\DinerMax3000-Menus.exe
+C:\DinerMax3000-Menus\DinerMax3000-Menus\bin\Debug\DinerMax3000-Menus.pdb
+C:\DinerMax3000-Menus\DinerMax3000-Menus\obj\Debug\DinerMax3000-Menus.csprojAssemblyReference.cache
+C:\DinerMax3000-Menus\DinerMax3000-Menus\obj\Debug\DinerMax3000-Menus.csproj.CoreCompileInputs.cache
+C:\DinerMax3000-Menus\DinerMax3000-Menus\obj\Debug\DinerMax3000-Menus.exe
+C:\DinerMax3000-Menus\DinerMax3000-Menus\obj\Debug\DinerMax3000-Menus.pdb
