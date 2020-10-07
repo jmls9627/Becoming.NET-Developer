@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DinerMax3000_Menus
 {
-    class Menu
+    public class Menu
     {
         public string Name;
         public List<MenuItem> items;

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace DinerMax3000_Menus
 {
-    public class MenuItem
+   public class FoodMenu:Menu
     {
-        public string Title;
-        public string Description;
-        public double Price;
+        public string HospitalDirections;
     }
 }
