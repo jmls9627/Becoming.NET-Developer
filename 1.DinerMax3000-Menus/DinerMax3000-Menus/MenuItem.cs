@@ -10,6 +10,25 @@ namespace DinerMax3000_Menus
     {
         public string Title;
         public string Description;
-        public double Price;
+        public double Price
+        {
+            get{ return _price; }
+            set
+            {
+                if (value > 0)
+                {
+                  _price = value;
+                }
+                else
+                {
+                    throw new ApplicationException("you can not have free or negative valued items.");
+                }
+
+            }
+        }
+
+
+
+        private double _price;
     }
 }

@@ -35,6 +35,17 @@ namespace DinerMax3000_Menus
                 hungryGuestOrder.items.Add(currentItem);
             }
             Console.WriteLine("the Total is: " + hungryGuestOrder.Total);
+
+            try
+            {
+                outsideDrinks.AddMenuItems("Sex on the beach", "everyone likes it", 0);
+            }
+            catch (Exception throwException)
+            {
+                Console.WriteLine(throwException.Message);
+            }
+           
+
             Console.ReadKey();
 
         }
