@@ -12,7 +12,7 @@ namespace DinerMax3000.Business
     {
         public string Name;
         public List<MenuItem> items;
-
+        private int _databaseId;
         public Menu()
         {
             items = new List<MenuItem>();
@@ -31,14 +31,13 @@ namespace DinerMax3000.Business
         {
             MenuTableAdapter TaMenu = new MenuTableAdapter();
             MenuItemTableAdapter TaMenuItem = new MenuItemTableAdapter();
-
             var dtMenu = TaMenu.GetData();
             List<Menu> allMenus = new List<Menu>();
-
             foreach(DS_DinerMax3000.MenuRow menuRow in dtMenu.Rows)
             {
                 Menu currentMenu = new Menu();
                 currentMenu.Name = menuRow.Name;
+                currentMenu._databaseId = menuRow.Id;
                 allMenus.Add(currentMenu);
 
                 var dtMenuItem = TaMenuItem.GetMenuItemsByMenuId(menuRow.Id);
@@ -49,6 +48,12 @@ namespace DinerMax3000.Business
             }
             return allMenus;
 
+        }
+
+        public void SaveNewMenuItem(string Name, string Description, double Price)
+        {
+            MenuItemTableAdapter TaMenuItem = new MenuItemTableAdapter();
+            TaMenuItem.InsertNewMenuItem(Name, Description, Price, _databaseId);
         }
 
 

@@ -12,8 +12,9 @@ namespace DinerMax3000_Menus
         static void Main(string[] args)
         {
             List<Menu> MenusFomDB = Menu.GetAllMenus();
-
-
+            Menu FirstMenu = MenusFomDB[0];
+            FirstMenu.SaveNewMenuItem("Smorgas", "A classic nordic dish", 10);
+            MenusFomDB = Menu.GetAllMenus();
             Order hungryGuestOrder = new Order();
 
             foreach (Menu CurrentMenu in MenusFomDB)
