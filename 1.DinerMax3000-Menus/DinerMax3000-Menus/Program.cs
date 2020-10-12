@@ -11,42 +11,23 @@ namespace DinerMax3000_Menus
     {
         static void Main(string[] args)
         {
-            FoodMenu summerMenu = new FoodMenu();
-            summerMenu.Name = "SummerMenu";
-            summerMenu.AddMenuItems("Salmon", "Fresh from Alpes", 25.50);
-            summerMenu.AddMenuItems("Tacos", "Mexican Tacos", 15.99);
-            summerMenu.HospitalDirections = "Right around the corner of 5th street";
+            List<Menu> MenusFomDB = Menu.GetAllMenus();
 
-            DrinkMenu outsideDrinks = new DrinkMenu();
-            outsideDrinks.Disclaimer = "Do not drink and code.";
-            outsideDrinks.AddMenuItems("Cuba libre", "classic", 3);
-            outsideDrinks.AddMenuItems("Screwdriver", "Makes you hammered", 5);
 
             Order hungryGuestOrder = new Order();
 
-            for(int i=0; i < summerMenu.items.Count; i++)
+            foreach (Menu CurrentMenu in MenusFomDB)
             {
-                MenuItem currentItem = summerMenu.items[i];
-                hungryGuestOrder.items.Add(currentItem);
-
+                foreach (MenuItem currentItem in CurrentMenu.items)
+                {
+                    hungryGuestOrder.items.Add(currentItem);
+                }
             }
 
-            foreach (MenuItem currentItem in outsideDrinks.items)
-            {
-                hungryGuestOrder.items.Add(currentItem);
-            }
             Console.WriteLine("the Total is: " + hungryGuestOrder.Total);
 
-            try
-            {
-                outsideDrinks.AddMenuItems("Sex on the beach", "everyone likes it", 0);
-            }
-            catch (Exception throwException)
-            {
-                Console.WriteLine(throwException.Message);
-            }
            
-
+          
             Console.ReadKey();
 
         }
