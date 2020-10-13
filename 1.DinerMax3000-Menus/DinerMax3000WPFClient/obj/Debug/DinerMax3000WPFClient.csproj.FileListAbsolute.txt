@@ -17,3 +17,4 @@ C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000WPFClient\obj\
 C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000WPFClient\obj\Debug\DinerMax3000WPFClient.csproj.CopyComplete
 C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000WPFClient\obj\Debug\DinerMax3000WPFClient.exe
 C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000WPFClient\obj\Debug\DinerMax3000WPFClient.pdb
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000WPFClient\obj\Debug\GeneratedInternalTypeHelper.g.cs

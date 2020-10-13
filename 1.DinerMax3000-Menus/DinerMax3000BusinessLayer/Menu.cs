@@ -10,8 +10,8 @@ namespace DinerMax3000.Business
 {
     public class Menu
     {
-        public string Name;
-        public List<MenuItem> items;
+        public string Name { get; set; }
+        public List<MenuItem> items { get; set; }
         private int _databaseId;
         public Menu()
         {
