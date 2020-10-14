@@ -12,7 +12,18 @@
     </Window.DataContext>
     <Grid>
         <StackPanel>
-            <ComboBox ItemsSource="{Binding AllMenus}" DisplayMemberPath="Name"/>
+            <ComboBox SelectedItem="{Binding SelectedMenu}" ItemsSource="{Binding AllMenus}" DisplayMemberPath="Name"/>
+            <DataGrid ItemsSource="{Binding SelectedMenu.items}"/>
+            <WrapPanel>
+                <Label>Title</Label>
+                <TextBox Width="150" Text="{Binding NewMenuItem.Title}"></TextBox>
+                <Label>Price</Label>
+                <TextBox Width="50" Text="{Binding NewMenuItem.Price}"></TextBox>
+                
+            </WrapPanel>
+            <Label>Description</Label>
+            <TextBox  Text="{Binding NewMenuItem.Description}"></TextBox>
+            <Button>Save New Menu Item</Button>      
         </StackPanel>
 
 
