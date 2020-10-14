@@ -28,16 +28,17 @@ namespace DinerMax3000.WPFClient
                 _selectedMenu = value;
             }
         }
-        private MenuItem _newMenuItem = new MenuItem();
-        public MenuItem NewMenuItem
+       
+        private List<MenuItem> _newMenuItems = new List<MenuItem>();
+        public List<MenuItem> newMenuItems
         {
             get
             {
-                return _newMenuItem;
+                return _newMenuItems;
             }
             set
             {
-                _newMenuItem = value;
+                _newMenuItems = value;
             }
         }
         
