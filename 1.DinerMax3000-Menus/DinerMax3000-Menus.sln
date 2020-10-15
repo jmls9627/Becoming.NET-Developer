@@ -9,6 +9,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinerMax3000BusinessLayer",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinerMax3000WPFClient", "DinerMax3000WPFClient\DinerMax3000WPFClient.csproj", "{EE2958DC-FC85-4480-86AB-044985F78CAB}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DinerMax3000Web", "..\1.DinerMax3000Web\DinerMax3000Web\", "{BEAC004B-68C6-4AA7-A3FA-FC999604BE20}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1548"
+		Debug.AspNetCompiler.PhysicalPath = "..\1.DinerMax3000Web\DinerMax3000Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1548\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1548"
+		Release.AspNetCompiler.PhysicalPath = "..\1.DinerMax3000Web\DinerMax3000Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1548\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1548"
+		SlnRelativePath = "..\1.DinerMax3000Web\DinerMax3000Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +49,10 @@ Global
 		{EE2958DC-FC85-4480-86AB-044985F78CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE2958DC-FC85-4480-86AB-044985F78CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE2958DC-FC85-4480-86AB-044985F78CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEAC004B-68C6-4AA7-A3FA-FC999604BE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAC004B-68C6-4AA7-A3FA-FC999604BE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEAC004B-68C6-4AA7-A3FA-FC999604BE20}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAC004B-68C6-4AA7-A3FA-FC999604BE20}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
