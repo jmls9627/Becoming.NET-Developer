@@ -12,6 +12,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DinerMax3000Web", "..\1.DinerMax3000Web\DinerMax3000Web\", "{BEAC004B-68C6-4AA7-A3FA-FC999604BE20}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{cce72773-a388-4a07-a32e-919fc19f7c57}|DinerMax3000BusinessLayer.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_1548"
 		Debug.AspNetCompiler.PhysicalPath = "..\1.DinerMax3000Web\DinerMax3000Web\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1548\"

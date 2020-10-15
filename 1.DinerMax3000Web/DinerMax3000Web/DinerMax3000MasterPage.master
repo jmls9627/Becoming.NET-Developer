@@ -11,8 +11,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <a href="Default.aspx">Home</a>
-             <a href="Menus.aspx">Menus</a>
+           <a href="Default.aspx">Home</a>
+           <a href="Menus.aspx"> Menus</a>
         </div>
     <div>
         <asp:ContentPlaceHolder id="cphMainContent" runat="server">
