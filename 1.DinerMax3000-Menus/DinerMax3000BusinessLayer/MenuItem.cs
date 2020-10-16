@@ -12,7 +12,15 @@ namespace DinerMax3000.Business
         public string Description { get; set; }
         public double Price
         {
-            get{ return _price; }
+            get{
+                /* CDyne.WeatherSoapClient client = new  CDyne.WeatherSoapClient();
+                   var resultWeather= Client.GetCityWeatherByZIP("90102");
+                   if(int.Parse(resultWather.temperature)>80){
+                     return _price * 2; 
+                  }
+                 */
+
+                return _price; }
             set
             {
                 if (value > 0)
