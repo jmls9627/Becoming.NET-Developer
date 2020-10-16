@@ -15,4 +15,14 @@ public partial class Menus : System.Web.UI.Page
         }
         Session["MenusPageCount"] = (int)Session["MenusPageCount"] + 1;
     }
+
+    protected void gvMenu_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            GridView innerGridView = (GridView)e.Row.FindControl("gvMenuItems");
+            innerGridView.DataSource = ((DinerMax3000.Business.Menu)e.Row.DataItem).items;
+            innerGridView.DataBind();
+        }
+    }
 }
