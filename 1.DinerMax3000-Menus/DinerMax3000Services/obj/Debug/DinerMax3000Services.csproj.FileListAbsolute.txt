@@ -1,0 +1,11 @@
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\bin\Debug\DinerMax3000Services.dll.config
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\bin\Debug\DinerMax3000Services.dll
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\bin\Debug\DinerMax3000Services.pdb
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\bin\Debug\DinerMax3000BusinessLayer.dll
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\bin\Debug\DinerMax3000BusinessLayer.pdb
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\bin\Debug\DinerMax3000BusinessLayer.dll.config
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\obj\Debug\DinerMax3000Services.csprojAssemblyReference.cache
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\obj\Debug\DinerMax3000Services.csproj.CoreCompileInputs.cache
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\obj\Debug\DinerMax3000Services.csproj.CopyComplete
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\obj\Debug\DinerMax3000Services.dll
+C:\GITHUB\Becoming.NET-Developer\1.DinerMax3000-Menus\DinerMax3000Services\obj\Debug\DinerMax3000Services.pdb

@@ -12,6 +12,13 @@ namespace DinerMax3000Services
     public interface IMenuService
     {
         [OperationContract]
-        void DoWork();
+        DinerMax3000Menus GetMenus();
+    }
+
+    [DataContract]
+    public class DinerMax3000Menus
+    {
+        [DataMember]
+        public DinerMax3000.Business.Menu [] Menus { get; set; }
     }
 }
